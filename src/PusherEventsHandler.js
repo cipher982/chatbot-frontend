@@ -1,8 +1,5 @@
 import { useRef, useEffect } from 'react';
 import Pusher from 'pusher-js';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 
 const PusherEventsHandler = ({setMessages}) => {
